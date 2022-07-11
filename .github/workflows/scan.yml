@@ -25,6 +25,7 @@ jobs:
           apiKey: ${{ secrets.CONTRAST_API_KEY }}
           orgId: ${{ secrets.CONTRAST_ORGANIZATION_ID }}
           authHeader: ${{ secrets.CONTRAST_AUTH_HEADER }}
+          apiUrl: https://apptwo.contrastsecurity.com
           projectName: andersonshatch-ContrastScanPipeline
       #Upload the results to GitHub      
       - name: Upload SARIF file
